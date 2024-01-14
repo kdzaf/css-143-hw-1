@@ -8,6 +8,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Problem1Test {
 
+    //Adding a comment to commit for the first time
     @Test
     public void testBinarySearch() {
         int[][] inputs = {
