@@ -196,9 +196,8 @@ public class Problem4Test {
                 // average stock market return (see shorturl.at/aHJT6)
                 add(new TestCase(1000, 300, 35, 10,
                         127000, 1003790.16f));
-                /*
-                TODO: add your ways of making a million dollar using compounding interest
-                 */
+                add(new TestCase(20000, 5000, 8, 10,
+                        127000, 1003790.16f));
             }
         };
 

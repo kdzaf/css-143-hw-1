@@ -13,8 +13,13 @@ public class Problem3Test {
     // DO NOT REMOVE OR CHANGE the signature
     @Test
     public void testSumOfNonUnique() {
-        assertTrue(false); // TODO: Place-holder. Replace with your tests.
+        assertEquals(0, Problem3.SumOfNonUnique(new int[]{3}));
+        assertEquals(0, Problem3.SumOfNonUnique(new int[]{3, 2}));
+        assertEquals(4, Problem3.SumOfNonUnique(new int[]{2, 3, 2}));
+        assertEquals(16, Problem3.SumOfNonUnique(new int[]{2, 4, 2, 1, 4, -5, 4}));
+        assertEquals(0, Problem3.SumOfNonUnique(new int[]{}));
     }
+
 
     @Test
     public void largeArrayTest() {
